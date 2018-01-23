@@ -1,0 +1,52 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  width: 1300px;
+}
+header {
+  background: black;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  z-index: 3;
+  border: 1px solid seashell;
+}
+.logo {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 0;
+  align-items: center;
+  border: 1px solid white;
+}
+.header-links {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+  width: 50%;
+  border: 1px solid white;
+}
+a {
+  color: seashell;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  text-decoration: underline;
+}
+.img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
