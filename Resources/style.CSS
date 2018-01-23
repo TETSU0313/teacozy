@@ -5,6 +5,8 @@ body {
   background-color: black;
   opacity: 0.9;
   width: 1300px;
+  display: flex;
+  justify-content: center;
 }
 header {
   background: black;
@@ -15,9 +17,12 @@ header {
   justify-content:space-between;
   align-items: center;
   flex-flow: row wrap;
-  width: 100%;
+  width: 1300px;
   z-index: 3;
   border: 1px solid seashell;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .logo {
   display: flex;
@@ -48,5 +53,19 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-
+}
+.mission-container {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: column;
+border: 1px solid white;
+}
+ #mission {
+display: flex;
+align-items: center;
+flex-flow: column;
+position: absolute;
+background-color: black;
+width: 1200px;
 }
