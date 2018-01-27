@@ -50,6 +50,7 @@ a {
   flex-flow: row;
   text-decoration: underline;
 }
+/* NOTE: Mission */
 #mission {
   display: flex;
   justify-content: center;
@@ -64,6 +65,7 @@ flex-flow: column;
 .mission-text  {
 display: flex;
 align-items: center;
+justify-content: space-around;
 flex-flow: column;
 background-color: black;
 width: 1200px;
@@ -84,6 +86,7 @@ position: absolute;
   justify-content: space-around;
   align-items: center;
   position: relative;
+  padding:;
 }
  #featured-tea {
   display: flex;
@@ -96,8 +99,6 @@ position: absolute;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-
-
 }
 .address {
   display: flex;
@@ -148,4 +149,18 @@ position: absolute;
   align-items: center;
   flex-flow: column;
   padding; 20px;
+}
+.f-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 200px;
+  padding-top: 20px;
+}
+.copyright {
+  display: flex;
+  text-align: left;
+  width: 100%;
+  padding-left: 20px;
 }
